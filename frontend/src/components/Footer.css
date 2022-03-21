@@ -1,0 +1,115 @@
+.footer {
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  height: fit-content;
+  background-color: #161729;
+}
+.footer-company-logo {
+  font-family: 'Ubuntu', sans-serif;
+}
+.footer-container {
+  padding: 5rem;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.footer-link-title,
+.footer-link,
+.footer-company-logo,
+.footer-countries,
+.social-icons,
+.copyright,
+.footer-company-subtitle {
+  color: #fff;
+}
+.footer-link-title {
+  font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer-link {
+  font-family: 'Helvetica', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  font-size: 2rem;
+}
+
+.social-icons:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.footer-company-logo,
+.footer-company-subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.footer-company-subtitle,
+.footer-countries {
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 960px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  /* .footer-content:not():last-child {
+    margin-bottom: 2.5rem;
+  } */
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-links-title {
+    margin-bottom: 2.5rem;
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  .footer-bottom {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  .footer-icons {
+    margin-bottom: 2.5rem;
+  }
+}

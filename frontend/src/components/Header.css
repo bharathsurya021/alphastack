@@ -1,0 +1,36 @@
+.logo {
+  font-family: var(--ff-ubuntu);
+  font-size: 2rem;
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-primary);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  height: 80px;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-link {
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #fff;
+}
