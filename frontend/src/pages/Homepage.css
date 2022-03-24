@@ -28,13 +28,10 @@
   background-color: #fff;
   border-radius: 4px;
   flex: 1 1 400px;
-  margin-right: 5rem;
-  margin-bottom: 80px;
 }
 
 .section-services {
   background-color: var(--color-secondary);
-  padding-bottom: 0;
 }
 
 .service-title {
@@ -60,4 +57,12 @@ button {
   border-radius: 4px;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.mr-5 {
+  margin-right: 5rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
 }

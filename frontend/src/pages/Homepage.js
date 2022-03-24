@@ -8,23 +8,23 @@ const Homepage = () => {
             </div>
             <div className='section-container section-services'>
 
-                <div className='service-box'>
+                <div className='service-box mr-5 mb-5'>
                     <p className='service-title' >CRYPTO MARKET MAKING</p>
                     <p className='service-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam debitis numquam quas minus repellat culpa perspiciatis deserunt. Repudiandae, sed.</p>
                     <button>LEARN MORE</button>
                 </div>
-                <div className='service-box'>
+                <div className='service-box mb-5'>
                     <p className='service-title' >CRYPTO LIQUIDITY PROVISION</p>
                     <p className='service-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam debitis numquam quas minus repellat culpa perspiciatis deserunt. Repudiandae, sed.</p>
                     <button>LEARN MORE</button>
                 </div>
-                <div className='service-box'>
+                <div className='service-box mr-5'>
                     <p className='service-title' >ALOGRITHMIC TRADING</p>
                     <p className='service-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam debitis numquam quas minus repellat culpa perspiciatis deserunt. Repudiandae, sed.</p>
                     <button>LEARN MORE</button>
                 </div>
                 <div className='service-box'>
-                    <p className='service-title' >RISK MANAGEMENT</p>
+                    <p className='service-title ' >RISK MANAGEMENT</p>
                     <p className='service-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam debitis numquam quas minus repellat culpa perspiciatis deserunt. Repudiandae, sed.</p>
                     <button>LEARN MORE</button>
                 </div>
